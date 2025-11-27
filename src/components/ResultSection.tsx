@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { PieChart, Pie, Cell, Tooltip, ResponsiveContainer, Legend } from 'recharts';
-import { FileDown, MessageCircle, Loader2, Lock, Smartphone, CheckCircle2 } from 'lucide-react';
+import { FileDown, Facebook, Loader2, Lock, Smartphone, CheckCircle2 } from 'lucide-react';
 import { CalculationResult, CustomerInfo } from '../types';
 import { formatCurrency } from '../utils/calculator';
 
@@ -248,12 +248,12 @@ export const ResultSection: React.FC<ResultSectionProps> = ({
       {!isLocked && (
         <div className="flex flex-col sm:flex-row justify-end gap-4 mt-8 no-print animate-in fade-in duration-500">
             <a 
-                href="https://zalo.me/0982777111" 
+                href="https://m.me/azgroupkientrucvaxaydung" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2 px-6 py-4 bg-neutral-800 border border-neutral-700 text-white hover:text-amber-500 hover:border-amber-500 font-bold rounded-lg transition-all"
             >
-                <MessageCircle size={20} />
+                <Facebook size={20} />
                 Chat Tư Vấn
             </a>
             <button 
